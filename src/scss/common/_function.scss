@@ -1,0 +1,4 @@
+@import "setting";
+@function pxToRem($px){
+    @return $px / $browser-default-font-size * 1rem;
+}
